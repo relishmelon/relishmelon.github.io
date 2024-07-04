@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body>
+<h1>My Password Generator</h1>
+  <form id="inputForm">
+    <label for="name">What is your name?:</label>
+    <input name="name" id="name" type="text">
+    <br><br>
+    <label for="bday"> When is your Birthday?:</label>
+    <input name="bday" id="bday" type="date">
+    <br><br>
+    <label for="color"> What is your favorite color?:</label>
+    <input name="color" id="color" type="text">
+    <br><br>
+    
+    <label for="length">Select a Length for your password:</label>
+    <input type="range" id="length" name="length" min="5" max="15" value="10" onchange="showPassword()" >
+    <br><br>
+    
+    <div class="center">
+    <button class="button button2" type="Button" onclick="showPassword()">SUBMIT</button> </div>
+  </form>
+  <br>
+  <div id="output">
+
+  </div>
+  
+  
+
+</body>
+<script src="script.js"></script>
+
+
+
+</html>

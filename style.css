@@ -1,0 +1,39 @@
+ html {
+  height: 100%;
+  width: 100%;
+}
+.button {
+  background-color: #10b0e5; 
+  border:none ;
+  color: white;
+  transition-duration: 0.9s;
+  border-radius: 9px;
+  font-size: 20px;
+  font-family: 'Impact', fantasy ;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+h1 { text-align: center;
+   color: darkcyan;
+   font-size: 30px;
+     text-shadow: 2px 2px 8px #00ffee;
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+body {font-family: 'Impact', fantasy;
+     color: darkcyan;
+      text-shadow: 2px 2px 8px #00ffee;
+      text-align: center;
+  
+  background-color: #ffd814;
+}
+ h3 { text-align: center;
+    color: #14ad5e; 
+    }
